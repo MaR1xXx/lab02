@@ -8,7 +8,7 @@
 ```sh
 $ mkdir lab02 && cd lab02
 $ git init
-$ git remote add origin https://github.com/aakx000/lab02.git
+$ git remote add origin https://github.com/MaR1xXx/lab02.git
 $ git branch -M main
 $ git push -u origin main
 ```
@@ -153,7 +153,7 @@ $ git log
 ```sh
 commit 431445c5f83513190d03b33f6d7300ccba4dc2d5 (HEAD -> main, origin/main)
 Merge: b1081bd ce29bd4
-Author: aakx000 <146767192+aakx000@users.noreply.github.com>
+Author: MaR1xXx <146767192+MaR1xXx@users.noreply.github.com>
 Date:   Sun Apr 28 20:16:15 2024 +0300
 
     Merge pull request #1 from aakx000/patch1
@@ -161,31 +161,31 @@ Date:   Sun Apr 28 20:16:15 2024 +0300
     removed using namespace std
 
 commit ce29bd439af26679b3e005991c9fd345fb048749 (origin/patch1, patch1)
-Author: aakx000 <aakx0506@gmail.com>
+Author: MaR1xXx <MaR1xXx@gmail.com>
 Date:   Sun Apr 28 20:14:45 2024 +0300
 
     added comments
 
 commit 22493674c359ae0403b9789f1391348fe9704752
-Author: aakx000 <aakx0506@gmail.com>
+Author: MaR1xXx <MaR1xXx@gmail.com>
 Date:   Sun Apr 28 20:10:41 2024 +0300
 
     removed using namespace std
 
 commit b80e411212b5b4c784819b5fd7b4aa316a51482e
-Author: aakx000 <aakx0506@gmail.com>
+Author: MaR1xXx <MaR1xXx@gmail.com>
 Date:   Sun Apr 28 20:07:25 2024 +0300
 
     removed using namespace std
 
 commit b1081bdc847ad1f830995d413b00e6347ecdd770
-Author: aakx000 <aakx0506@gmail.com>
+Author: MaR1xXx <MaR1xXx@gmail.com>
 Date:   Sun Apr 28 19:57:35 2024 +0300
 
     add hello_world.cpp v2.0
 
 commit eb3a8707d04669d78c930e46f1204f6035acce6e
-Author: aakx000 <aakx0506@gmail.com>
+Author: MaR1xXx <MaR1xXx@gmail.com>
 Date:   Sun Apr 28 13:07:24 2024 +0300
 
     add hello_world.cpp
@@ -265,7 +265,7 @@ int main()
 ```sh
 $ git pull origin main --rebase
 
-From https://github.com/aakx000/lab02
+From https://github.com/MaR1xXx/lab02
  * branch            main       -> FETCH_HEAD
 Auto-merging hello_world.cpp
 CONFLICT (content): Merge conflict in hello_world.cpp
@@ -283,7 +283,7 @@ $ vim hello_world.cpp
 
 ```sh
 $ git add .
-$ git commit -m "final commit"
+$ git commit -m "final"
 $ git rebase --continue
 Successfully rebased and updated refs/heads/patch2.
 ```
